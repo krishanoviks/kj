@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<HTML>
+<head>
+<title>
+Beļģijas vizītkarte
+</title>
+<link rel='stylesheet' style='text/css' href='style.css'/>
+</head>
+<body>
+
+<div id='menu'>
+<ul>
+<a href="index.html"><li class="first">Full Map</li></a>
+<a href="continent1.html"><li>Continent 1</li></a>
+<a href="continent2.html"><li>Continent 2</li></a>
+<a href=""><li>Continent 3</li></a>
+</ul>
+</div>
+
+<div class="zoomable">
+<script src='https://unpkg.com/panzoom@8.0.0/dist/panzoom.min.js'></script>
+<img src="continent2.png">
+<script>
+var area = document.querySelector('.zoomable')
+panzoom(area)
+</script>	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</HTML>

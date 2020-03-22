@@ -1,0 +1,122 @@
+body{
+overflow: hidden;
+background-color: rgba(51,102,255,255);
+}
+#menu{
+
+width:100%;
+background: rgba(34,34,34,0.85);
+margin: auto;
+position: fixed;
+font-family: 'Cormorant Infant', serif;
+top:0px;
+left:0px;
+z-index:5;
+}
+#menuatlas{
+background-color: rgba(34,34,34,0.85);
+font-family: 'Cormorant Infant', serif;
+width:100%;
+float:left;
+
+}
+#maparea{
+	height:100%;
+	width:100%;
+	position:relative;
+	left:-50%;
+	top:-2000px;
+	padding:0;
+}
+#scene{
+	padding:0;
+}
+#content{
+	font-family: 'Cormorant Infant', serif;
+	font-size: 32pt;
+	width:100%;
+	float: left;
+}
+.column {
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0px;
+}
+
+.column img {
+  vertical-align: middle;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  width:100%;
+  float:left;
+}
+
+
+button {
+  color: white; /* White text */
+  padding: 16px 30px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  z-index: 100;
+  font-size: 32pt;
+float: left;
+color: white;
+font-family: 'Cormorant Infant', serif;
+background: rgba(34,34,34,0);
+border: none;
+  
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+button:hover {
+  background-color: rgba(255,255,255,0.05);
+}
+
+
+
+
+a.title{
+	z-index:10;
+	font-size:100px;
+	position: absolute;
+	white-space: nowrap;
+	color:darkred;
+	-webkit-text-stroke: 0.3px white;
+	font-family: 'Berkshire Swash', cursive;
+}
+a.city{
+	z-index:10;
+	font-size:60px;
+	position: absolute;
+	white-space: nowrap;
+	color:darkblue;
+	-webkit-text-stroke: 0.3px white;
+	font-family: 'Berkshire Swash', cursive;
+	
+}
+
+a:link {
+text-decoration: none;
+}
+a:visited {
+text-decoration:none;
+}
+a:focus {
+text-decoration:none;
+}
+a:hover {
+text-decoration:none;
+color: black;
+}
+a:active {
+text-decoration:none;
+}
